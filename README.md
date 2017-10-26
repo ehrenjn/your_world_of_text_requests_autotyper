@@ -8,7 +8,7 @@ You may only send up to 200 bytes per message and if you post messages too quick
 **Warning: THIS LIBRARY IS INCOMPLETE BUT STILL USABLE. yourworldoftext will often try to switch websockets which will result in your websocket becoming useless and having to start a new one. This happens more frequently if you post slowly (slower then once a second) but will happen to every websocket eventually. At 1 post/second I can usually post at least a hundred times before I get disconnected.
 Creating a websocket will also fail sometimes. If the first line that websocket() prints is "HTTP/1.1 403 Access denied" then the websocket has failed to make a connection.**
 
-#### Usage
+### Usage
 
     sock = websocket(world)
 
@@ -32,7 +32,7 @@ Retrieves the latest response to your post. If there is no response to retrieve 
 Closes the connection to yourworldoftext. 
 
 
-#### Example
+### Example
 
     from ywot import websocket
 	import time
