@@ -130,8 +130,7 @@ class ywotData(): #an example of a message to post is: '{"kind":"write","edits":
 
 
 
-if __name__ == '__main__':
-    import meme
+if __name__ == '__main__': #example, spams "@winningpodcast" on the main world a bunch
     import time
     le = websocket()
     for i in range(30):
